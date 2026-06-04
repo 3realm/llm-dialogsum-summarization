@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+nltk
+evaluate
+rouge_score
+sacrebleu
+kagglehub
+transformers
+datasets
+accelerate

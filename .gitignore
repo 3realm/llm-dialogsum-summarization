@@ -216,3 +216,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+kaggle.json
+*.key
+
+# Data
+data/
+datasets/
+
+# Models and checkpoints
+models/
+checkpoints/
+outputs/checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# WandB
+wandb/
+
+# Colab
+sample_data/
+
+# Logs
+*.log
