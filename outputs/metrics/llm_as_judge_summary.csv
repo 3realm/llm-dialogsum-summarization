@@ -1,0 +1,4 @@
+method,avg_judge_score
+first_last_sentence_baseline,1.1
+qwen_zero_shot,2.8
+qwen_lora,2.6
