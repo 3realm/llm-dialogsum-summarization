@@ -1,0 +1,91 @@
+id,topic,first_last_score,zero_shot_score,lora_score,best_method,reason,raw_judge_output
+test_0_1,communication method,1,4,2,zero_shot,"Summary B accurately covers the main points, is concise, and fluent, while summaries A and C are either too brief or include unnecessary details.","```json
+{
+  ""first_last_score"": 1,
+  ""zero_shot_score"": 4,
+  ""lora_score"": 2,
+  ""best_method"": ""zero_shot"",
+  ""reason"": ""Summary B accurately covers the main points, is concise, and fluent, while summaries A and C are either too brief or include unnecessary details.""
+}
+```"
+test_0_2,company policy,1,4,2,zero_shot,"Zero-shot summary covers the main points, is concise, and fluent, while the other summaries lack coverage or are poorly written.","```json
+{
+  ""first_last_score"": 1,
+  ""zero_shot_score"": 4,
+  ""lora_score"": 2,
+  ""best_method"": ""zero_shot"",
+  ""reason"": ""Zero-shot summary covers the main points, is concise, and fluent, while the other summaries lack coverage or are poorly written.""
+}
+```"
+test_0_3,dictation,1,4,2,zero_shot,"Zero-shot summary covers the main points, is concise, and fluent, while the other summaries are either too brief or include unnecessary details.","```json
+{
+  ""first_last_score"": 1,
+  ""zero_shot_score"": 4,
+  ""lora_score"": 2,
+  ""best_method"": ""zero_shot"",
+  ""reason"": ""Zero-shot summary covers the main points, is concise, and fluent, while the other summaries are either too brief or include unnecessary details.""
+}
+```"
+test_1_1,public transportation,1,2,4,lora,"Lora summary covers main points, is concise and fluent, while first_last is very poor and zero_shot is poor due to lack of coverage and conciseness.","```json
+{
+  ""first_last_score"": 1,
+  ""zero_shot_score"": 2,
+  ""lora_score"": 4,
+  ""best_method"": ""lora"",
+  ""reason"": ""Lora summary covers main points, is concise and fluent, while first_last is very poor and zero_shot is poor due to lack of coverage and conciseness.""
+}
+```"
+test_1_2,transportation,1,2,4,lora,"Lora summary covers the main points, is concise, and fluent, while first_last is very poor and zero_shot is poor due to lack of conciseness and including unnecessary details.","```json
+{
+  ""first_last_score"": 1,
+  ""zero_shot_score"": 2,
+  ""lora_score"": 4,
+  ""best_method"": ""lora"",
+  ""reason"": ""Lora summary covers the main points, is concise, and fluent, while first_last is very poor and zero_shot is poor due to lack of conciseness and including unnecessary details.""
+}
+```"
+test_1_3,discuss transportation,1,2,4,lora,"Lora summary covers main points, is concise and fluent, while first_last is very poor and zero_shot is poor due to inaccuracies and lack of conciseness.","```json
+{
+  ""first_last_score"": 1,
+  ""zero_shot_score"": 2,
+  ""lora_score"": 4,
+  ""best_method"": ""lora"",
+  ""reason"": ""Lora summary covers main points, is concise and fluent, while first_last is very poor and zero_shot is poor due to inaccuracies and lack of conciseness.""
+}
+```"
+test_2_1,divorce,1,2,3,lora,"Lora summary is the most accurate and concise, despite some minor errors, while first_last summary is very incomplete and zero_shot summary contains several factual errors.","```json
+{
+  ""first_last_score"": 1,
+  ""zero_shot_score"": 2,
+  ""lora_score"": 3,
+  ""best_method"": ""lora"",
+  ""reason"": ""Lora summary is the most accurate and concise, despite some minor errors, while first_last summary is very incomplete and zero_shot summary contains several factual errors.""
+}
+```"
+test_2_2,divorce,1,2,1,zero_shot,"Summary B is the most accurate, but it contains some incorrect information, such as the kids getting custody, which is not mentioned in the dialogue. Summaries A and C are very poor due to lack of coverage and incorrect information.","```json
+{
+  ""first_last_score"": 1,
+  ""zero_shot_score"": 2,
+  ""lora_score"": 1,
+  ""best_method"": ""zero_shot"",
+  ""reason"": ""Summary B is the most accurate, but it contains some incorrect information, such as the kids getting custody, which is not mentioned in the dialogue. Summaries A and C are very poor due to lack of coverage and incorrect information.""
+}
+```"
+test_2_3,discuss divorce,1,2,3,lora,"Lora summary is the most accurate and concise, while first_last is very poor and zero_shot contains incorrect information.","```json
+{
+  ""first_last_score"": 1,
+  ""zero_shot_score"": 2,
+  ""lora_score"": 3,
+  ""best_method"": ""lora"",
+  ""reason"": ""Lora summary is the most accurate and concise, while first_last is very poor and zero_shot contains incorrect information.""
+}
+```"
+test_3_1,birthday party,2,4,1,zero_shot,"Zero-shot summary covers the main points, is fluent and concise, while first_last is too brief and lora includes incorrect information.","```json
+{
+  ""first_last_score"": 2,
+  ""zero_shot_score"": 4,
+  ""lora_score"": 1,
+  ""best_method"": ""zero_shot"",
+  ""reason"": ""Zero-shot summary covers the main points, is fluent and concise, while first_last is too brief and lora includes incorrect information.""
+}
+```"
